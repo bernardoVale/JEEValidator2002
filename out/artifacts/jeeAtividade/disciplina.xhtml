@@ -17,6 +17,7 @@
 </h:head>
 
 <h:body>
+    <f:loadBundle basename="br.edu.utfpr.i18n.disciplinas" var="msg"/>
     <h:form>
         Nome:
         <h:inputText value="#{disciplinaBean.disciplina.nome}"/><br/>
@@ -26,7 +27,7 @@
             <f:selectItems
                     value="#{disciplinaBean.professorList}" />
         </h:selectOneMenu>
-        <h:commandButton value="Salvar" action="#{disciplinaBean.save}"/>
+        <h:commandButton value="#{msg.save}" action="#{disciplinaBean.save}"/>
     </h:form>
 </h:body>
 
