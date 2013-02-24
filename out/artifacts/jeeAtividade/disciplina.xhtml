@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: bernardo
+  Date: 24/12/12
+  Time: 15:17
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsf/core">
+
+<h:head>
+    <title>Cadastro de Disciplinas</title>
+</h:head>
+
+<h:body>
+    <h:form>
+        Nome:
+        <h:inputText value="#{disciplinaBean.disciplina.nome}"/><br/>
+        Professor:
+        <h:selectOneMenu id="selectProfessor"
+                         value="#{disciplinaBean.currentProfessor}">
+            <f:selectItems
+                    value="#{disciplinaBean.professorList}" />
+        </h:selectOneMenu>
+        <h:commandButton value="Salvar" action="#{disciplinaBean.save}"/>
+    </h:form>
+</h:body>
+
+</html>

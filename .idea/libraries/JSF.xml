@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="JSF" type="jsf">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/sistemas_jars_other/jsf/jsf-api.jar!/" />
+      <root url="jar://$USER_HOME$/sistemas_jars_other/jsf/jsf-impl.jar!/" />
+      <root url="jar://$USER_HOME$/sistemas_jars_other/jsf/jstl-1.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

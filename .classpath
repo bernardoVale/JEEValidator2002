@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Axis2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/JEEAtividade1912/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Java EE 6-Java EE 6"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Glassfish 3.1.2.2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JSF"/>
+	<classpathentry kind="var" path="USER_HOME/sistemas_jars_other/eclipselink-2.4.0.jar"/>
+	<classpathentry kind="var" path="USER_HOME/sistemas_jars_other/postgresql-9.1-901.jdbc4.jar"/>
+	<classpathentry kind="var" path="USER_HOME/sistemas_jars_other/axis2-1.6.2/lib/jaxb-xjc-2.1.7.jar" sourcepath="/USER_HOME/sistemas_jars_other/axis2-1.6.2/lib/jaxb-xjc-2.1.7.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jarsWS"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
