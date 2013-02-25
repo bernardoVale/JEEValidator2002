@@ -7,26 +7,26 @@
     <application>
         <resource-bundle>
             <base-name>br.edu.utfpr.i18n.disciplinas</base-name>
-            <var>msg</var>
+            <var>dis</var>
         </resource-bundle>
         <resource-bundle>
             <base-name>br.edu.utfpr.i18n.professores</base-name>
-            <var>msg</var>
+            <var>pro</var>
         </resource-bundle>
     </application>
     <managed-bean>
         <managed-bean-name>professorBean</managed-bean-name>
-        <managed-bean-class>br.edu.utfpr.model.managedBeans.ProfessorBean</managed-bean-class>
+        <managed-bean-class>br.edu.utfpr.model.managedBeans.ProfessorMB</managed-bean-class>
         <managed-bean-scope>session</managed-bean-scope>
     </managed-bean>
     <managed-bean>
         <managed-bean-name>disciplinaBean</managed-bean-name>
-        <managed-bean-class>br.edu.utfpr.model.managedBeans.DisciplinaBean</managed-bean-class>
+        <managed-bean-class>br.edu.utfpr.model.managedBeans.DisciplinaMB</managed-bean-class>
         <managed-bean-scope>session</managed-bean-scope>
     </managed-bean>
     <managed-bean>
         <managed-bean-name>visualizarProfessorBean</managed-bean-name>
-        <managed-bean-class>br.edu.utfpr.model.managedBeans.VisualizarProfessoresBean</managed-bean-class>
+        <managed-bean-class>br.edu.utfpr.model.managedBeans.VisualizarProfessoresMB</managed-bean-class>
         <managed-bean-scope>view</managed-bean-scope>
     </managed-bean>
 </faces-config>

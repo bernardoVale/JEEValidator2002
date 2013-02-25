@@ -11,23 +11,23 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsf/core">
-<f:loadBundle basename="br.edu.utfpr.i18n.disciplinas" var="msg"/>
+<f:loadBundle basename="br.edu.utfpr.i18n.disciplinas" var="dis"/>
 <h:head>
 
-    <title><h:outputText value="#{msg.title}"/></title>
+    <title><h:outputText value="#{dis.title}"/></title>
 </h:head>
 
 <h:body>
     <h:form>
-        <h:outputLabel value="#{msg.name}"/>
+        <h:outputLabel value="#{dis.name}"/>
         <h:inputText value="#{disciplinaBean.disciplina.nome}"/><br/>
-        <h:outputLabel value="#{msg.teacher}"/>
+        <h:outputLabel value="#{dis.teacher}"/>
         <h:selectOneMenu id="selectProfessor"
                          value="#{disciplinaBean.currentProfessor}">
             <f:selectItems
                     value="#{disciplinaBean.professorList}" />
         </h:selectOneMenu>
-        <h:commandButton value="#{msg.save}" action="#{disciplinaBean.save}"/>
+        <h:commandButton value="#{dis.save}" action="#{disciplinaBean.save}"/>
     </h:form>
 </h:body>
 

@@ -1,21 +1,23 @@
 package br.edu.utfpr.model.managedBeans;
 
-import br.edu.utfpr.model.dao.ProfessorDao;
+import br.edu.utfpr.model.ejb.ProfessorBean;
 import br.edu.utfpr.model.pojo.Professor;
+
+import javax.ejb.EJB;
 
 /**
  * @author Bernardo Vale
  *         Date: 16/12/12
  *         Time: 12:23
  */
-public class ProfessorBean {
+public class ProfessorMB {
 
     private Professor professor = new Professor();
-
-    private ProfessorDao dao = new ProfessorDao();
+    @EJB
+    private ProfessorBean bean;
 
     public void salvar(){
-        professor = dao.save(professor);
+        bean.salvar(professor);
         professor = new Professor();
     }
 

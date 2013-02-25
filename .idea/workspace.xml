@@ -2,27 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e260ec15-b469-4855-b66f-7655fd3087b2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/jeeAtividade.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Axis2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/edu/utfpr/servico/ProfessorServer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/edu/utfpr/servico/ProfessorServerImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/example/TesteWS.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/jaxws-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/jaxws-rt.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/sun-jaxws.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/DisciplinaBean.java" afterPath="$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/DisciplinaMB.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/ProfessorBean.java" afterPath="$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/ProfessorMB.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/VisualizarProfessoresBean.java" afterPath="$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/VisualizarProfessoresMB.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Validator2702.iml" afterPath="$PROJECT_DIR$/Validator2702.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/disciplina.xhtml" afterPath="$PROJECT_DIR$/web/disciplina.xhtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/professor.xhtml" afterPath="$PROJECT_DIR$/web/professor.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/validator.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/validator.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JEEAtividade1912.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Professor.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356181043669" ignored="false" />
     <file path="/Disciplina.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356179269706" ignored="false" />
-    <file path="/Dummy.txt" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1361744547972" ignored="false" />
+    <file path="/Dummy.txt" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1361829008463" ignored="false" />
     <file path="/persistence.xml" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356041913976" ignored="false" />
     <file path="/TesteJPA.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356738010213" ignored="false" />
     <file path="/fragment.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356544859917" ignored="false" />
@@ -43,26 +37,31 @@
     <file path="/DisciplinasMatriculas.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356301269074" ignored="false" />
     <file path="/server-config.wsdd" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356301179354" ignored="false" />
     <file path="/IDisciplinasMatriculas.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356301307438" ignored="false" />
-    <file path="/ProfessorMB.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356356267555" ignored="false" />
+    <file path="/ProfessorMB.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1361830892688" ignored="false" />
     <file path="/a.txt" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356356183225" ignored="false" />
-    <file path="/faces-config.xml" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1361746587892" ignored="false" />
+    <file path="/faces-config.xml" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1361750356852" ignored="false" />
     <file path="/ProdutosMBean.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356359928342" ignored="false" />
-    <file path="/ProfessorBean.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356370171199" ignored="false" />
+    <file path="/ProfessorBean.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1361831269809" ignored="false" />
     <file path="/ProfessorController.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356359838476" ignored="false" />
-    <file path="/DisciplinaBean.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356372099433" ignored="false" />
-    <file path="/disciplina.xhtml" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1361746193474" ignored="false" />
+    <file path="/DisciplinaBean.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1361829505053" ignored="false" />
+    <file path="/disciplina.xhtml" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1361750385150" ignored="false" />
     <file path="/visualizarProfessores.xhtml" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356471774686" ignored="false" />
     <file path="/VisualizarProfessoresBean.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356471758585" ignored="false" />
     <file path="/disciplinas.properties" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1361745841927" ignored="false" />
     <file path="/disciplinas_en.properties" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1361745864298" ignored="false" />
     <file path="/disciplinas_ptbr.properties" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1361741998933" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/artifacts/Validator2702_war_exploded.xml" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1361744006772" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/artifacts/validator.xml" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1361744036623" ignored="false" />
     <file path="/disciplinas_pt.properties" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1361745321303" ignored="false" />
-    <file path="/professor.xhtml" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1361746433025" ignored="false" />
+    <file path="/professor.xhtml" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1361750430924" ignored="false" />
     <file path="/professores.properties" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1361746485675" ignored="false" />
     <file path="/professores_en.properties" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1361746494340" ignored="false" />
     <file path="/professores_pt.properties" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1361746480650" ignored="false" />
+    <file path="$PROJECT_DIR$/Servidor/META-INF/ejb-jar.xml" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1361829008471" ignored="false" />
+    <file path="$PROJECT_DIR$/Servidor/src/utfpr/edu/br/ejb/DisciplinaBeanImpl.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1361829008473" ignored="false" />
+    <file path="/DisciplinaBeanImpl.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1361830002912" ignored="false" />
+    <file path="/DisciplinaMB.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1361832210031" ignored="false" />
+    <file path="/ProfessorBeanImpl.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1361831276655" ignored="false" />
+    <file path="/VisualizarProfessoresMB.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1361832144776" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,41 +76,8 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/br/edu/utfpr/model/dao/AbstractDao.java" line="33" class="br.edu.utfpr.model.dao.AbstractDao" package="br.edu.utfpr.model.dao">
         <option name="ENABLED" value="true" />
@@ -225,7 +191,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/ProfessorBean.java" line="18" class="br.edu.utfpr.model.managedBeans.ProfessorBean" package="br.edu.utfpr.model.managedBeans">
+      <breakpoint url="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/ProfessorMB.java" line="20" class="br.edu.utfpr.model.managedBeans.ProfessorMB" package="br.edu.utfpr.model.managedBeans">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -239,35 +205,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/ProfessorBean.java" line="12" class="br.edu.utfpr.model.managedBeans.ProfessorBean" package="br.edu.utfpr.model.managedBeans">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/ProfessorBean.java" line="17" class="br.edu.utfpr.model.managedBeans.ProfessorBean" package="br.edu.utfpr.model.managedBeans">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/ProfessorBean.java" line="14" class="br.edu.utfpr.model.managedBeans.ProfessorBean" package="br.edu.utfpr.model.managedBeans">
+      <breakpoint url="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/ProfessorMB.java" line="19" class="br.edu.utfpr.model.managedBeans.ProfessorMB" package="br.edu.utfpr.model.managedBeans">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -477,8 +415,181 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/br/edu/utfpr/model/ejb/DisciplinaBeanImpl.java" line="25" class="br.edu.utfpr.model.ejb.DisciplinaBeanImpl" package="br.edu.utfpr.model.ejb">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/br/edu/utfpr/model/ejb/DisciplinaBeanImpl.java" line="26" class="br.edu.utfpr.model.ejb.DisciplinaBeanImpl" package="br.edu.utfpr.model.ejb">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/br/edu/utfpr/model/ejb/DisciplinaBeanImpl.java" line="27" class="br.edu.utfpr.model.ejb.DisciplinaBeanImpl" package="br.edu.utfpr.model.ejb">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/DisciplinaMB.java" line="28" class="br.edu.utfpr.model.managedBeans.DisciplinaMB" package="br.edu.utfpr.model.managedBeans">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/DisciplinaMB.java" line="27" class="br.edu.utfpr.model.managedBeans.DisciplinaMB" package="br.edu.utfpr.model.managedBeans">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/br/edu/utfpr/model/ejb/DisciplinaBeanImpl.java" line="32" class="br.edu.utfpr.model.ejb.DisciplinaBeanImpl" package="br.edu.utfpr.model.ejb">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/br/edu/utfpr/model/ejb/ProfessorBeanImpl.java" line="21" class="br.edu.utfpr.model.ejb.ProfessorBeanImpl" package="br.edu.utfpr.model.ejb">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/VisualizarProfessoresMB.java" line="33" class="br.edu.utfpr.model.managedBeans.VisualizarProfessoresMB" package="br.edu.utfpr.model.managedBeans">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/VisualizarProfessoresMB.java" line="26" class="br.edu.utfpr.model.managedBeans.VisualizarProfessoresMB" package="br.edu.utfpr.model.managedBeans">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/br/edu/utfpr/model/ejb/ProfessorBeanImpl.java" line="26" class="br.edu.utfpr.model.ejb.ProfessorBeanImpl" package="br.edu.utfpr.model.ejb">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -488,29 +599,85 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="disciplina.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/disciplina.xhtml">
+      <file leaf-file-name="DisciplinaBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/ejb/DisciplinaBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="11" selection-start="479" selection-end="515" vertical-scroll-proportion="-5.2083335">
+            <state line="14" column="55" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DisciplinaMB.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/DisciplinaMB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="77" selection-start="827" selection-end="827" vertical-scroll-proportion="0.48096886">
+              <folding>
+                <element signature="e#1391#1403#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProfessorBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/ejb/ProfessorBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="20" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="professor.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/professor.xhtml">
+      <file leaf-file-name="ProfessorBeanImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/ejb/ProfessorBeanImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="47" selection-start="520" selection-end="520" vertical-scroll-proportion="-10.0">
+            <state line="26" column="0" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/dao/AbstractDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="0" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="visualizarProfessores.xhtml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/visualizarProfessores.xhtml">
+      <file leaf-file-name="ProfessorMB.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/ProfessorMB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="53" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.75652176">
+            <state line="20" column="0" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DisciplinaBeanImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/ejb/DisciplinaBeanImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="26" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VisualizarProfessoresMB.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/VisualizarProfessoresMB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="0" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1436#1448#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -540,22 +707,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/br/edu/utfpr/controller/PersistenceGetter.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/utfpr/model/dao/AbstractDao.java" />
-        <option value="$PROJECT_DIR$/src/example/TesteWS.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/VisualizarProfessoresBean.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/utfpr/i18n/disciplinas_pt-br.properties" />
-        <option value="$PROJECT_DIR$/src/br/edu/utfpr/i18n/disciplinas_ptbr.properties" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/br/edu/utfpr/i18n/disciplinas_pt.properties" />
         <option value="$PROJECT_DIR$/src/br/edu/utfpr/i18n/disciplinas.properties" />
         <option value="$PROJECT_DIR$/src/br/edu/utfpr/i18n/disciplinas_en.properties" />
-        <option value="$PROJECT_DIR$/web/disciplina.xhtml" />
-        <option value="$PROJECT_DIR$/web/professor.xhtml" />
         <option value="$PROJECT_DIR$/src/br/edu/utfpr/i18n/professores_pt.properties" />
         <option value="$PROJECT_DIR$/src/br/edu/utfpr/i18n/professores.properties" />
         <option value="$PROJECT_DIR$/src/br/edu/utfpr/i18n/professores_en.properties" />
         <option value="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" />
+        <option value="$PROJECT_DIR$/web/disciplina.xhtml" />
+        <option value="$PROJECT_DIR$/web/professor.xhtml" />
+        <option value="$PROJECT_DIR$/Servidor/src/utfpr/edu/br/ejb/DisciplinaBeanImpl.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/utfpr/model/ejb/DisciplinaBean.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/utfpr/model/ejb/DisciplinaBeanImpl.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/ProfessorMB.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/utfpr/model/ejb/ProfessorBean.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/utfpr/model/ejb/ProfessorBeanImpl.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/VisualizarProfessoresMB.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/DisciplinaMB.java" />
       </list>
     </option>
   </component>
@@ -573,10 +740,10 @@
     <option name="jreName" value="#JAVA_HOME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-4" />
-    <option name="width" value="1303" />
-    <option name="height" value="773" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1301" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -668,6 +835,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -710,24 +878,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JEEAtividade1912" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JEEAtividade1912" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -747,58 +897,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JEEAtividade1912" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JEEAtividade1912" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utfpr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pojo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JEEAtividade1912" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JEEAtividade1912" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utfpr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="managedBeans" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -866,7 +964,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -880,19 +977,19 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="reference.settings.project.maven.runner" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JEEAtividade1912" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../EJBCarrinho" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -1010,6 +1107,19 @@
       <predefined_log_file id="GlassFish" enabled="true" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1038,19 +1148,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -1064,6 +1161,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -1090,6 +1194,7 @@
     <configuration default="false" name="Glassfish 3.1.2.2" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="Glassfish 3.1.2.2">
       <option name="OPEN_IN_BROWSER" value="false" />
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/jeeAtividade" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="validator">
           <settings />
@@ -1196,10 +1301,10 @@
       </method>
     </configuration>
     <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Application.TesteJPA" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TesteWS" />
-      <item index="2" class="java.lang.String" itemvalue="Glassfish Server.Glassfish 3.1.2.2" />
-      <item index="3" class="java.lang.String" itemvalue="Glassfish Server.Peixe-Vidro" />
+      <item index="0" class="java.lang.String" itemvalue="Glassfish Server.Glassfish 3.1.2.2" />
+      <item index="1" class="java.lang.String" itemvalue="Glassfish Server.Peixe-Vidro" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TesteJPA" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TesteWS" />
     </list>
     <recent_temporary>
       <list size="2">
@@ -1265,30 +1370,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24223107" sideWeight="0.24" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24223107" sideWeight="0.24" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4544" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5232" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24063745" sideWeight="0.3872" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24063745" sideWeight="0.6096" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24063745" sideWeight="0.4768" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3904" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1358,69 +1464,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="339" selection-end="339" vertical-scroll-proportion="0.38793105" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/VisualizarProfessoresBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="32" selection-start="821" selection-end="821" vertical-scroll-proportion="0.47420964">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/pojo/IPojo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="163" selection-end="163" vertical-scroll-proportion="0.37292817">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/pojo/Disciplina.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="259" selection-end="259" vertical-scroll-proportion="0.3314917">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="31" selection-start="775" selection-end="775" vertical-scroll-proportion="-10.8">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/i18n/disciplinas_pt.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="11" selection-start="21" selection-end="21" vertical-scroll-proportion="0.05226481">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/disciplina.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="11" selection-start="479" selection-end="515" vertical-scroll-proportion="-5.2083335">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/professor.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="47" selection-start="520" selection-end="520" vertical-scroll-proportion="-10.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/i18n/disciplinas.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="29" vertical-scroll-proportion="-0.0">
@@ -1431,70 +1474,146 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/i18n/disciplinas_en.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/i18n/professores_pt.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="-0.0">
+        <state line="17" column="31" selection-start="741" selection-end="741" vertical-scroll-proportion="0.7281553">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="ResourceBundle">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/i18n/professores.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/i18n/professores_en.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/DisciplinaBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="401" selection-end="401" vertical-scroll-proportion="0.23356402">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/faces-config.xml">
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="31" selection-start="1203" selection-end="1203" vertical-scroll-proportion="0.75">
+        <state line="13" column="20" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="com.intellij.jsf.ui.FacesConfigEditorProvider">
         <state />
       </provider>
-      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/professor.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="54" selection-start="249" selection-end="249" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../04-EJB-Glassfish/lib/javax.ejb.jar!/javax/ejb/Local.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="305" selection-end="305" vertical-scroll-proportion="0.18292683">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/META-INF/ejb-jar.xml">
+      <provider editor-type-id="com.intellij.javaee.module.components.EjbRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.components.MethodPermissionsEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.components.TransactionAttributesEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.components.EjbModuleGeneralEditorProvider">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/visualizarProfessores.xhtml">
+    <entry file="file://$PROJECT_DIR$/web/disciplina.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="53" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.75652176">
+        <state line="29" column="37" selection-start="989" selection-end="989" vertical-scroll-proportion="0.5670103">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/ejb/DisciplinaBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="55" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/ejb/DisciplinaBeanImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="26" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/ejb/ProfessorBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="20" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/dao/ProfessorDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="171" selection-end="171" vertical-scroll-proportion="0.37709498">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/ProfessorMB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/VisualizarProfessoresMB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1436#1448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/ejb/ProfessorBeanImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/dao/AbstractDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/DisciplinaMB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="77" selection-start="827" selection-end="827" vertical-scroll-proportion="0.48096886">
+          <folding>
+            <element signature="e#1391#1403#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1558,7 +1677,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

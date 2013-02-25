@@ -10,6 +10,7 @@
           <element id="library" level="project" name="JSF" />
           <element id="file-copy" path="$USER_HOME$/sistemas_jars_other/eclipselink-2.4.0.jar" />
           <element id="file-copy" path="$USER_HOME$/sistemas_jars_other/postgresql-9.1-901.jdbc4.jar" />
+          <element id="library" level="application" name="lib" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="Validator2702/web/Web" />

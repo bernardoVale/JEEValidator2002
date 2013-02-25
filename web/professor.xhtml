@@ -12,18 +12,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://java.sun.com/jsf/html"
       xmlns:f="http://java.sun.com/jsf/core">
-<f:loadBundle basename="br.edu.utfpr.i18n.professores" var="msg"/>
+<f:loadBundle basename="br.edu.utfpr.i18n.professores" var="pro"/>
 <h:head>
-    <title><h:outputText value="#{msg.title}"/></title>
+    <title><h:outputText value="#{pro.title}"/></title>
 </h:head>
 
 <h:body>
     <h:form>
-        <h:outputLabel value="#{msg.name}"/>
+        <h:outputLabel value="#{pro.name}"/>
         <h:inputText value="#{professorBean.professor.nome}"/> <br/>
-        <h:outputLabel value="#{msg.cpf}"/>
+        <h:outputLabel value="#{pro.cpf}"/>
         <h:inputText value="#{professorBean.professor.cpf}"/> <br/>
-        <h:commandButton value="#{msg.save}" action="#{professorBean.salvar}"/>
+        <h:commandButton value="#{pro.save}" action="#{professorBean.salvar}"/>
 
     </h:form>
 </h:body>

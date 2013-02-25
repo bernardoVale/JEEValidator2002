@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="Validator2702:ejb exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Validator2702_ejb_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Validator2702/ejb/EJB" />
+      <element id="module-output" name="Validator2702" />
+    </root>
+  </artifact>
+</component>
