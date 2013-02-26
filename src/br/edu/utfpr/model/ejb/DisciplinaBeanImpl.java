@@ -26,6 +26,7 @@ public class DisciplinaBeanImpl implements DisciplinaBean{
         Professor p = daoP.findByID(prof_id);
         disciplina.setProfessor(p);
         dao.save(disciplina);
+
     }
 
     @Override

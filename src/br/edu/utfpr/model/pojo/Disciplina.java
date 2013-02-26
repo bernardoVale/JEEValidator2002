@@ -1,6 +1,8 @@
 package br.edu.utfpr.model.pojo;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 /**
  * @author Bernardo Vale
@@ -14,6 +16,9 @@ public class Disciplina implements IPojo{
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "disciplina_s")
     private Long id;
+
+    @NotNull(message = "Não pode ser nulo")
+    @Size(min = 4, max=30, message = "{sizeName}")
     private String nome;
     @ManyToOne(cascade = CascadeType.REFRESH)
     private Professor professor;

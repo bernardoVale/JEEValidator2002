@@ -20,7 +20,7 @@
 <h:body>
     <h:form>
         <h:outputLabel value="#{dis.name}"/>
-        <h:inputText value="#{disciplinaBean.disciplina.nome}"/><br/>
+        <h:inputText value="#{disciplinaBean.disciplina.nome}" id="name"/><br/>
         <h:outputLabel value="#{dis.teacher}"/>
         <h:selectOneMenu id="selectProfessor"
                          value="#{disciplinaBean.currentProfessor}">
@@ -28,6 +28,7 @@
                     value="#{disciplinaBean.professorList}" />
         </h:selectOneMenu>
         <h:commandButton value="#{dis.save}" action="#{disciplinaBean.save}"/>
+        <h:messages/>
     </h:form>
 </h:body>
 

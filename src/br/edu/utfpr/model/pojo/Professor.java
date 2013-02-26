@@ -1,6 +1,8 @@
 package br.edu.utfpr.model.pojo;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,6 +18,8 @@ public class Professor implements IPojo{
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "professorGenerator")
     private Long id;
+    @NotNull(message = "Não pode ser nulo")
+    @Size(min = 4, max=30, message = "{sizeName}")
     private String nome;
     private String cpf;
     @OneToMany(mappedBy = "professor")
