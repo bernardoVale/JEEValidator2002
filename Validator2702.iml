@@ -76,10 +76,11 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/sistemas_jars_other/caelum-stella-bean-validation-2.0-beta1.jar!/" />
+          <root url="file://$USER_HOME$/sistemas_jars_other/hibernate-validator-4.3.0.Final/UseTHIS" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
+        <jarDirectory url="file://$USER_HOME$/sistemas_jars_other/hibernate-validator-4.3.0.Final/UseTHIS" recursive="false" />
       </library>
     </orderEntry>
   </component>

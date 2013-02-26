@@ -8,11 +8,13 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="JSF" />
-          <element id="file-copy" path="$USER_HOME$/sistemas_jars_other/eclipselink-2.4.0.jar" />
           <element id="file-copy" path="$USER_HOME$/sistemas_jars_other/postgresql-9.1-901.jdbc4.jar" />
           <element id="library" level="application" name="lib" />
           <element id="file-copy" path="$USER_HOME$/sistemas_jars_other/validation-api-1.0.0.GA.jar" />
-          <element id="file-copy" path="$USER_HOME$/sistemas_jars_other/caelum-stella-bean-validation-2.0-beta1.jar" />
+          <element id="file-copy" path="$USER_HOME$/sistemas_jars_other/eclipselink-2.4.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/sistemas_jars_other/hibernate-validator-4.3.0.Final/UseTHIS/hibernate-validator-annotation-processor-4.3.0.Final.jar" />
+          <element id="file-copy" path="$USER_HOME$/sistemas_jars_other/hibernate-validator-4.3.0.Final/UseTHIS/hibernate-validator-4.3.0.Final.jar" />
+          <element id="file-copy" path="$USER_HOME$/sistemas_jars_other/hibernate-validator-4.3.0.Final/UseTHIS/validation-api-1.0.0.GA.jar" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="Validator2702/web/Web" />
